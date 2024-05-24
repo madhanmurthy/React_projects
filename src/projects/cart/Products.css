@@ -1,0 +1,21 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.products__single {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid grey;
+  width: 30%;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.product__detail {
+  display: flex;
+  justify-content: space-between;
+}
